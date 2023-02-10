@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -205,7 +204,7 @@
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">BizQuest</a>
+    <a class="navbar-brand" href="../index.html">Azibiz</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -244,15 +243,11 @@
         </div>
     </div>
     <div class="row">
-        <form action="/Login/DoRegister/" method="POST" id="loginForm">
-            <input name="__RequestVerificationToken" type="hidden" value="4gEGjZsoatWge7qF1UCjZVcIrorWQevviWY4Ob7swt4wL2j-_Jg44Lt5fxq8kKlnx43OQhawT_OApDeGaoDggwn-0yGqKn8omiVDmiX3mEo1" />
-            <input type="hidden" name="ReturnUrl" />
-            <input type="hidden" name="LoginEnabled" value="true" />
-            <input type="hidden" name="UserType" value="Buyer" />
+        <form action="" method="POST" id="loginForm">
             <div class="col-md-6" style="padding-top: 20px">
                 <div class="loginbox">
                     <div class="loginform">
-                        <h2>Create a BizQuest Account</h2>
+                        <h2>Create a Azibiz Account</h2>
                         <p>Registration is FREE and easy, and requires no personal information other than your email address.</p>
                         <div class="alert alert-danger errorMessage" style="display: none"></div>
 
@@ -285,7 +280,7 @@
             </div>
             <div class="col-md-6">
                 <h3>Sign Up to get these benefits!</h3>
-                <ul class="list-unstyled registerBenefits">
+                <ul class="list-bullet registerBenefits">
                     <li>Keep track of businesses you have inquired about</li>
                     <li>Save Listings you want to remember</li>
                     <li>Save Searches for faster results</li>
@@ -298,9 +293,16 @@
                 </div>
                 <p><strong>Need Assistance?</strong></p>
                 <ul class="list-unstyled">
-                    <li><i class="fa fa-phone"></i> <a href="tel:+1-888-280-3815">888-280-3815</a></li>
-                    <li><i class="fa fa-clock-o"></i> Mon - Fri, 9am - 5pm Pacific</li>
-                    <li><i class="fa fa-info-circle"></i> <a href="">Contact Us</a></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+</svg> <a href="tel:+1-888-280-3815">888-280-3815</a></li>
+        <li> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-building" viewBox="0 0 16 16">
+  <path d="M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"/>
+  <path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V1Zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3V1Z"/>
+</svg>Mon - Fri, 9am - 5pm Pacific</li>
+        <li> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+  <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/>
+</svg><a href="">Contact Us</a></li>
                 </ul>
 
                 <br id="moveMeBottom">
@@ -311,46 +313,22 @@
 
 
     <script src=".js/main.js"/>
-
-
-    <script type="text/javascript" defer>
-        $(function () {
-            var SingleSignOn = {
-                OpenPasswordForgot: function () {
-                    window.location = '/Login/Forgot/';
-                }
-            };
-
-            var form = $('#loginForm').form();
-            var eml = form.email('.register-id', 'Enter a valid Email Address.');
-
-            var pw = form.group();
-            pw.length('.new-pw', 6, 50, 'Passwords must be at least six characters.');
-            pw.html('.new-pw', 'Passwords cannot contain HTML code.');
-
-            var confirm = form.group();
-            confirm.require('.confirm-pw', 'Confirm your password again.');
-            confirm.match('.confirm-pw', '.new-pw', 'Password and Confirm Password do not match.');
-
-            $('#loginForm').submit(function (e) {
-                e.preventDefault();
-                if (form.isValid()) {
-                    $.ajax({
-                        method: 'POST',
-                        url: '/Login/DoRegister/',
-                        data: $('#loginForm').serialize(),
-                        success: function (res) {
-                            if (res.Error) {
-                                $('.errorMessage').html(res.Error).show();
-                            } else if (res.Redirect) {
-                                window.location = res.Redirect;
-                            }
-                        }
-                    });
-                }
-                return false;
-            });
-        });
-    </script>
+    <?php
+ include('auth/db.php');
+ 
+//insert email and password into database
+if(isset($_POST['submit'])){
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+    $sql = "INSERT INTO users (email,pass) VALUES ('$email','$password')";
+    $result = mysqli_query($con,$sql);
+    if($result){
+        print_r($result);
+    }else{
+        echo "Data not inserted";
+    }
+}
+?>
+</body>
 
 </html>
